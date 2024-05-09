@@ -1,0 +1,288 @@
+/* ------------------- OVERSKRIFTER ------------------ -*/
+.hero-heading {
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+
+.support-card-h2 { 
+    color: black; /*#2e475d*/;
+    margin-bottom: 1.5rem;  
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.detail-item-h3{
+    font-size: 1.125rem;
+    line-height: 1.56;
+    margin: 1rem 0;
+}
+.detail-item-h4{
+  
+        font-size: 1.125rem;
+        line-height: 1.56;
+        margin: 1rem 0;
+}
+
+/* ------------------ VENSTRE KORT ------------------ */
+
+
+.hero-p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* ------------------ DIVEN HVOR BEGGE KORTENE ER INNI ------------------ */
+.main-wrapper {
+    max-width: 67.5rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ------------------ HOVEDTEKST OG HOVEDBILDE ------------------ */
+.hero-content {
+    background-image: url(/kontaktOss.WebP);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: max-content;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-body {
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 52%;
+    padding: 6rem 1rem;
+    text-align: start;
+}
+
+/* ------------------ HØYRE KORT ------------------*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.supports { /* begge kortene på siden*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -3.75rem;
+}
+
+.support-card { /* venstre kort*/
+    width: calc((100% - 20px) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 33.75rem;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    border: 1px solid #80868c;
+    box-shadow: 0px 4px 10px rgba(64, 62, 62, 0.5);
+}
+
+.support-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.support-card-a {
+    text-decoration: underline;
+    color: rgb(20, 112, 216);
+    font-weight: 1500;
+    margin-bottom: 2.5rem;
+}
+
+.support-card a {
+    margin-bottom: 2.5rem;
+}
+
+/* ------------------ KNAPPEN TIL SEND SKJEMA ------------------ */
+.btn-common { 
+    text-decoration: none;
+    color: #000;
+    background-color: white; 
+    border-radius: 0.188rem;
+    padding: 0.9em 1.388em;
+    font-size: .9375rem;
+    min-width: 8.555rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.btn-common:hover{
+    background-color: grey;
+    color: white;
+}
+
+/* ------------------ DIVEN NEDERST ------------------ */
+.connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-title {
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 1.38;
+    color: black; /*#2e475d*/;
+    font-weight: bold;
+}
+
+.connect-main {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.1875rem;
+    border: 1px solid rgb(213, 217, 223);
+    margin-bottom: 20rem;
+}
+
+.connect-body {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(161, 160, 160);
+}
+
+.map-box {
+    width: calc(100% - 400px);
+}
+
+.map-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.connect-body {
+    color: #2e475d;
+}
+
+.connect-detail {
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #f6f9fc;
+}
+
+.connect-detail {
+    width: 100%;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.detail-item span {
+    color: black;
+}
+
+.detail-item span {
+    margin-bottom: 0.313rem;
+}
+
+.fax {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------------ SKJEMA ------------------ */
+.form-input { 
+    width: 100%;
+    margin-bottom: 8px;
+    width: 25rem;
+    height: 3.75rem;
+}
+
+.form-input input, .form-input textarea { 
+    width: 100%;
+    padding: 0.5625rem 0.625rem;
+}
+
+/* ------------------ HOVER FOR BEGGE KORTENE ------------------ */
+.support-card:hover { 
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* ------------------ ALL MEDIA QUERIES AT THE END ------------------ */
+@media (max-width: 1024px) {
+    .connect-body {
+        display: block;
+    }
+    .hero-content {
+        background-position: 70% center; /* Shows more of the right side */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text, .support-card {
+        width: 100%;
+    }
+    .supports {
+        display:block;
+    }
+    .first {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-input input, .form-input textarea {
+        width: 70%;
+    }
+    .hero-content {
+        background-position: 50% center; 
+    }
+}
+
+@media (max-width: 320px) {
+    .form-input input, .form-input textarea {
+        width: 60%;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .btn-common {
+        font-size: .7rem;
+        margin-top: 0.813rem;
+    }
+    .connect-title {
+        margin-bottom: 2rem;
+    }
+    .hero-heading {
+        font-size: 2rem;
+    }
+ 
+}
+
+@media (max-width: 280px) {
+    .form-input input, .form-input textarea {
+        width: 50%;
+    }
+}
