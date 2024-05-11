@@ -20,18 +20,6 @@ function Chatbot() {
     const [showPopup, setShowPopup] = useState(true); // Legg til tilstand for å vise pop-up boksen
     const [showSuggestions, setShowSuggestions] = useState(true); // Ny tilstand for å vise forslag
 
-    //welcome_message
-
-    const WELCOME_MESSAGE = {
-        type: "bot",
-        content:
-            textData.welcome_message,
-        time: new Date().toLocaleTimeString("nb-NO", {
-            hour: "2-digit",
-            minute: "2-digit",
-        }),
-    };
-
     const sendMessage = (content, type = "user") => {
         if (content.trim()) {
             const time = new Date().toLocaleTimeString("nb-NO", {
@@ -43,14 +31,27 @@ function Chatbot() {
     };
 
     useEffect(() => {
-        if (isOpen && messages.length === 0) {
+        // Define the welcome message inside the useEffect
+        const WELCOME_MESSAGE = {
+            type: "bot",
+            content: textData.welcome_message,
+            time: new Date().toLocaleTimeString("nb-NO", {
+                hour: "2-digit",
+                minute: "2-digit",
+            }),
+        };
+    
+        // Reset welcome message when language changes
+        if (isOpen && (messages.length === 0 || language)) {
             setMessages([WELCOME_MESSAGE]);
         }
+    
+        // Scroll to bottom of chat when messages update
         if (chatBodyRef.current) {
             chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight;
         }
-    }, [isOpen, messages]);
-
+    }, [isOpen, messages.length, language]);  // Use language as a dependency
+    
     // Legg til funksjon for å lukke pop-up boksen
     const closePopup = () => {
         setShowPopup(false);
@@ -110,12 +111,12 @@ function ChatDialog({ onSend, onClose, messages, showSuggestions, setShowSuggest
             <ChatBody
                 messages={messages}
                 onSend={onSend}
-                showSuggestions={showSuggestions} // Send ned som prop
-                setShowSuggestions={setShowSuggestions} // Send ned som prop
+                showSuggestions={showSuggestions} 
+                setShowSuggestions={setShowSuggestions} 
             />
             <ChatFooter
                 onSend={onSend}
-                setShowSuggestions={setShowSuggestions} // Send ned som prop
+                setShowSuggestions={setShowSuggestions} 
             />
         </div>
     );
