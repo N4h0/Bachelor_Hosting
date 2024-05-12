@@ -15,8 +15,8 @@ function Contact() {
     const [successMessage, setSucessMessage] = useState("");
 
     const sendEmail = (e) => {
-         e.preventDefault();
-   
+        e.preventDefault();
+
         const name = document.querySelector('.input-name').value;
         const email = document.querySelector('.input-email').value;
         const message = document.querySelector('.textarea').value;
@@ -37,19 +37,22 @@ function Contact() {
                     setShowSuccessMessage(true);         //reset skjemaet etter vellykket sending
                     e.target.reset();
                     */
-  
+
                     console.log('Suksess!');
 
                     if (name && isValidEmail(email) && message) {
-                      
+
                         e.target.reset();
                         setSucessMessage("");
-               
+
                     }
-                   
+
                 },
-                
-        );
+                (error) => {
+                    console.log('Noe gikk galt:', error.text);
+                    alert(textData.notSuccess_message)
+                },
+            );
         function isValidEmail(email) {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return emailRegex.test(email);
@@ -134,8 +137,8 @@ function Contact() {
                                     <div className="detail-item fax">
                                         <span>{textData.email}</span>
                                     </div>
-                                    <h4  className='detail-item-h4' >{textData.organizationNumber}</h4>
-                                    <a  className="support-card-a" href={`mailto:${textData.email}`}>{textData.organizationNumberValue}</a>
+                                    <h4 className='detail-item-h4' >{textData.organizationNumber}</h4>
+                                    <a className="support-card-a" href={`mailto:${textData.email}`}>{textData.organizationNumberValue}</a>
                                 </div>
                             </div>
                         </div>
