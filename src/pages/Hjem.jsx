@@ -41,7 +41,7 @@ function Bildet({ language }) {
 
   return (
     <>
-      <img src="./HjemMainCompK.jpg" alt="" className="img-style" />
+      <img src="./HjemMainCompK.webp" alt="" className="img-style" />
       <div className="picture-text">
         <h1 className="picture-h1">{textData.regnskap}</h1>
         <h2 className="picture-h2">{textData.home_page_text}</h2>

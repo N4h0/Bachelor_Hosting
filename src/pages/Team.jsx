@@ -54,7 +54,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-6">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./MoosaComp.jpg" className="team-img" alt="pic" />
+                  <img src="./MoosaComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Moosa Ali Rashid</h3>
                 <div className="team-info">
@@ -66,7 +66,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-6">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./NailaComp.jpg" className="team-img" alt="pic" />
+                  <img src="./NailaComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Naila Sohail Khokhar</h3>
                 <div className="team-info">
@@ -78,7 +78,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-3">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./HaseebComp.jpg" className="team-img" alt="pic" />
+                  <img src="./HaseebComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Haseeb Talib</h3>
                 <div className="team-info">
@@ -90,7 +90,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-3">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./IbrahimComp.jpg" className="team-img" alt="pic" />
+                  <img src="./IbrahimComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Ibrahim Mughal</h3>
                 <div className="team-info">
@@ -114,7 +114,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-3">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./NitashaComp.jpg" className="team-img" alt="pic" />
+                  <img src="./NitashaComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Nitasha Khan</h3>
                 <div className="team-info">

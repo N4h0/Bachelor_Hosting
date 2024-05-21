@@ -13,7 +13,7 @@ function Tjenester() {
         {/* BILDET OG OVERSKRIFTEN TIL TJENESTER SIDEN */}
         <div className="hel-container">
             <div className="hel-venstre">
-                <img src="MoosaTjenesterBildeComp.jpg" alt="Bilde av Moosa på tjenester siden" className="MoosaTjenesterBilde" />
+                <img src="MoosaTjenesterBildeComp.webp" alt="Bilde av Moosa på tjenester siden" className="MoosaTjenesterBilde" />
             </div>
             <div className="hel-høyre">
                 <h1 className="tjenesterTittel">{textData.tjenesterHeading}</h1>
@@ -55,7 +55,7 @@ function Tjenester() {
                         <p>{textData.thirdHeadingP3}</p>
                     </div> 
                         <div className="første-andre">
-                            <img src="HaseebTjenesterComp.jpg" alt="Haseeb bilde tjenester side" className="HaseebTjenesterBilde" />
+                            <img src="HaseebTjenesterComp.webp" alt="Haseeb bilde tjenester side" className="HaseebTjenesterBilde" />
                         </div>
                 </div>
                

@@ -50,7 +50,6 @@ function Contact() {
                 },
                 (error) => {
                     console.log('Noe gikk galt:', error.text);
-                    alert(textData.notSuccess_message)
                 },
             );
         function isValidEmail(email) {
