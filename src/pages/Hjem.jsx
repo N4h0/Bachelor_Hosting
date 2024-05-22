@@ -1,7 +1,7 @@
 ﻿import { useContext, useEffect } from "react";
 import { LanguageContext } from "../languages/LanguageContext";
 import { Link } from "react-router-dom";
-
+import { Helmet } from 'react-helmet';
 import "./Hjem.css";
 import en from "../languages/en.json"; // Engelsk språkdata
 import no from "../languages/no.json"; // Norsk språkdata
@@ -239,6 +239,10 @@ function Kontakt({ language }) {
 
   return (
     <>
+      <Helmet>
+        <title>M&N Regnskap</title>
+        <meta name="description" content="M&N Regnskap er et personlig regnskapskontor som kommuniserer godt med sine klienter, kjenner deres økonomiske historie og tilstand, samt bidrar med tjenester som optimaliserer klientens økonomiske situasjon." />
+      </Helmet>
       <div className="contact-picture">
         <img
           src="./HjemsideKontaktOssComp.webp"

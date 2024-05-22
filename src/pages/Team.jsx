@@ -3,6 +3,7 @@ import { LanguageContext } from "../languages/LanguageContext";
 import { useContext } from "react";
 import en from "../languages/en.json"; // Engelsk språkdata
 import no from "../languages/no.json"; // Norsk språkdata
+import { Helmet } from 'react-helmet';
 
 function Team() {
   const { language } = useContext(LanguageContext);
@@ -17,6 +18,10 @@ function Test({ language }) {
   const data = language === "norsk" ? no : en;
   return (
     <>
+      <Helmet>
+        <title>Team</title>
+        <meta name="description" content="M&N Regnskap har en sentral beliggenhet på Alna og har omfattende erfaring med regnskapsførsel i ulike bransjer. Vi betjener kunder i Oslo, og andre deler av Norge." />
+      </Helmet>
       <div className="aboutUs_box">
         <div className="aboutUs_box_hero first">
           <div className="aboutUs_box_hero_text" style={{ gridArea: "tekst" }}>

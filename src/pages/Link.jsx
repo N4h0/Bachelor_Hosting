@@ -5,6 +5,7 @@ import en from "../languages/en.json"; // English language data
 import no from "../languages/no.json"; // Norwegian language data
 import { useContext } from "react";
 import { LanguageContext } from "../languages/LanguageContext";
+import { Helmet } from 'react-helmet';
 
 const PDF_FILE_URL = "https://n4h0.github.io/MN_Regnskap/kasseoppgjor.pdf";
 const EXCEL_FILE_URL1 = "https://n4h0.github.io/MN_Regnskap/kassetelling.xlsx";
@@ -33,6 +34,10 @@ function Frist() {
 
   return (
     <>
+      <Helmet>
+        <title>Frister</title>
+        <meta name="description" content="Det er viktig å holde styr på frister og innleveringer når det gjelder ulike regnskapsoppgaver." />
+      </Helmet>
       <article className="accounting-deadlines">
         <h1 className="accounting-deadlines-title">{textData.deadlinesTitle}</h1>
         <div className="accounting-box">

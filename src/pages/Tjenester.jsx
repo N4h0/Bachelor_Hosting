@@ -3,6 +3,7 @@ import en from '../languages/en.json'; // Engelsk språkdata
 import no from '../languages/no.json'; // Norsk språkdata
 import { useContext, useEffect } from 'react';
 import { LanguageContext } from '../languages/LanguageContext';
+import { Helmet } from 'react-helmet';
 
 function Tjenester() {
     const { language } = useContext(LanguageContext);
@@ -11,6 +12,10 @@ function Tjenester() {
     return (
         <>
         {/* BILDET OG OVERSKRIFTEN TIL TJENESTER SIDEN */}
+        <Helmet>
+            <title>Tjenester</title>
+            <meta name="description" content="Blant annet hjelper vi med regnskap, rådgivning, lønn og skattemelding." />
+        </Helmet>
         <div className="hel-container">
             <div className="hel-venstre">
                 <img src="MoosaTjenesterBildeComp.webp" alt="Bilde av Moosa på tjenester siden" className="MoosaTjenesterBilde" />

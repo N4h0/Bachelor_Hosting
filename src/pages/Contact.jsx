@@ -5,6 +5,7 @@ import en from '../languages/en.json'; // Engelsk språkdata
 import no from '../languages/no.json'; // Norsk språkdata
 import { useContext, useState } from 'react';
 import { LanguageContext } from '../languages/LanguageContext';
+import { Helmet } from 'react-helmet';
 
 function Contact() {
     const { language } = useContext(LanguageContext); // Bruk useContext for å få tilgang til det nåværende språket
@@ -13,7 +14,6 @@ function Contact() {
     const textData = language === 'norsk' ? no : en;
     const [errorMessage, setErrorMessage] = useState("");
     const [successMessage, setSucessMessage] = useState("");
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -62,6 +62,10 @@ function Contact() {
 
     return (
         <>
+            <Helmet>
+                <title>Kontakt oss</title>
+                <meta name="description" content="Konsentrer deg om det du er god på – Vi tar oss av regnskapet! Send oss en mail på mn@mnregnskap.no" />
+            </Helmet>
             <div className="contact-us-page">
                 <section className="hero-content">
                     <div className="main-wrapper">
