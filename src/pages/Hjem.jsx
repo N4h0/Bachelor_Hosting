@@ -63,22 +63,22 @@ function Regnskap({ language }) {
       <h2>{textData.ambitions_expertise}</h2>
       <div className="regnskapsBoks">
         <Link to="/tjenester" className="regnskapsKort">
-          <img src="./HjemKort1.WebP" alt="" loading="lazy" />
+          <img src="./HjemKort1.WebP" alt="regnskap kort" loading="lazy" />
           <h3 className="regnskapsKort-h3">{textData.accounting}</h3>
           <p className="regnskapsKort-p">{textData.accounting_description}</p>
         </Link>
         <Link to="/tjenester" className="regnskapsKort">
-          <img src="./HjemKort2.WebP" alt="" loading="lazy" />
+          <img src="./HjemKort2.WebP" alt="rådgiving kort" loading="lazy" />
           <h3 className="regnskapsKort-h3">{textData.advice}</h3>
           <p className="regnskapsKort-p">{textData.advice_description}</p>
         </Link>
         <Link to="/tjenester" className="regnskapsKort">
-          <img src="./HjemKort3.Webp" alt="" loading="lazy" />
+          <img src="./HjemKort3.Webp" alt="lønn kort" loading="lazy" />
           <h3 className="regnskapsKort-h3">{textData.salary}</h3>
           <p className="regnskapsKort-p">{textData.salary_description}</p>
         </Link>
         <Link to="/tjenester" className="regnskapsKort">
-          <img src="./HjemKort4.WebP" alt="" loading="lazy" />
+          <img src="./HjemKort4.WebP" alt="skattemelding kort" loading="lazy" />
           <h3 className="regnskapsKort-h3">{textData.tax_return}</h3>
           <p className="regnskapsKort-p">{textData.tax_return_description}</p>
         </Link>
