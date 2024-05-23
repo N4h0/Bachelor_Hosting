@@ -87,7 +87,7 @@ function Chatbot() {
             {showPopup && (
                 <div className="popup-container">
                     <div className="popup-box">
-                        <button className="closeButton" onClick={closePopup}>
+                        <button aria-label="close button" className="closeButton" onClick={closePopup}>
                             <FontAwesomeIcon
                                 icon={faTimes}
                                 style={{ color: "black", float: "right" }}

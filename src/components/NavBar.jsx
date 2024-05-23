@@ -82,7 +82,7 @@ export default class NavBar extends Component {
                     </div>
                 </div>
 
-                <button className="icon" onClick={this.toggleMenu}>
+                <button aria-label="icon" className="icon" onClick={this.toggleMenu}>
                     <FontAwesomeIcon icon={faBars} />
                 </button>
             </div>

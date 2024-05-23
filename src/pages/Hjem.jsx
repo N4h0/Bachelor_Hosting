@@ -135,65 +135,72 @@ function Partnere({ language }) {
     <div className="partnerBakgrunn">
       <h2 className="partner-tittel">{textData.our_partner}</h2>
       <section className="customer-logos bilder">
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://newdelhi.no/"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./NewDelhi.WebP" alt="New Delhi logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://www.masalapolitics.no/?gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH53-Z1aKvYmQJG_BJj_xwWEKJM8jl2dqkMNMPt34kACI5SlTFKfzaZsaAqGEEALw_wcB"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./MasalaPolitics.WebP" alt="Masala Politics logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://snappys.net/"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./Snappys.WebP" alt="Snappys logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://bighorn.no/en/"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./BigHornSteak.WebP" alt="Big Horn Steak logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://takeitfrombaljit.no/?fbclid=IwAR0wmFMfXblrbUNLlzOqQuBBK7aAN1tls1UKwqCFQPeQRJ_au18rIvHFzA8_aem_Aa0LcFb5CLXNnyDEpiFm-pGGlM13nD5ImmACsHtxuoxRQj4wS7wPefXvN_QOw8xUlB3RD3l3JUsvc5v26yiKGp5O"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./Baljit2.WebP" alt="Baljit2 logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://listentobaljit.no/"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./Baljit.WebP" alt="Baljit logo" />
           </a>
         </div>
-        <div className="bildet">
+        <div className="bildet" aria-hidden="true">
           <a
             href="https://www.carwash.no/"
             target="_blank"
             rel="noopener noreferrer"
+            tabindex="-1"
           >
             <img src="./CarWash.WebP" alt="Car Wash logo" />
           </a>
@@ -202,6 +209,7 @@ function Partnere({ language }) {
     </div>
   );
 }
+
 function Møtoss({ language }) {
   const textData = language === "norsk" ? no : en;
 
