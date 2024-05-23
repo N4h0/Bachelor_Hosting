@@ -95,7 +95,7 @@ function Test({ language }) {
             <div className="col-sm-12 col-md-3">
               <div className="team-item">
                 <div className="text-center">
-                  <img src="./IbrahimComp.wepp" className="team-img" alt="pic" />
+                  <img src="./IbrahimComp.webp" className="team-img" alt="pic" />
                 </div>
                 <h3 className="team-item-heading">Ibrahim Mughal</h3>
                 <div className="team-info">

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://mnregnskap.no/</loc>
+      <lastmod>2024-05-23</lastmod>
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://mnregnskap.no/om-oss</loc>
+      <lastmod>2024-05-23</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://mnregnskap.no/tjenester</loc>
+      <priority>0.4</priority>
+      <lastmod>2024-05-23</lastmod>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://mnregnskap.no/frister</loc>
+      <priority>0.2</priority>
+      <lastmod>2024-05-23</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://mnregnskap.no/kontakt</loc>
+      <lastmod>2024-05-23</lastmod>
+
+   </url>
+
+</urlset>
