@@ -29,7 +29,7 @@ function Contact() {
         }
 
         emailjs
-            .sendForm("desig4344.gmail.com", "template_6rs1lh8", e.target, { publicKey: "KyNlFb-WjIs15bWeo" })
+            .sendForm("mn@mnregnskap.no", "template_6rs1lh8", e.target, { publicKey: "KyNlFb-WjIs15bWeo" })
             .then(
                 () => {
                     /*

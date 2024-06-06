@@ -156,7 +156,7 @@
   "message_placeholder": "Skriv inn meldingen din ...",
   "popup_chat": "Velkommen til vår chatbot!",
   "popup_message": "Vi er her for å hjelpe deg. Spør oss gjerne om hva som helst!",
-  "chat_mona": "Roboten Mona kan svare på spørsmål om regnskap generelt eller selskapet M&N Regnskap spesifikt. Roboten er bygget på modellen",
+  "chat_mona": "Roboten Rio kan svare på spørsmål om regnskap generelt eller selskapet M&N Regnskap spesifikt. Roboten er bygget på modellen",
   "aboutchat": "Alle spørsmål sendt inn blir lagret.",
   "writeMessage": "Skriv inn meldingen din ...",
   "chatWithUs": "Chat med oss!",
@@ -183,7 +183,9 @@
   "fourthHeadingP2": "Skattemelding er en viktig del av personlig økonomi, og vi er her for å gjøre den prosessen enklere for deg. Enten det er elektronisk eller på papir, kan våre regnskapseksperter veilede deg gjennom dine private skattemeldinger.",
   "fourthHeadingP3": "Ta kontakt med oss når som helst – vi sikrer alltid din tilfredshet.",
 
-  "notFound": "Ser ut som at noen har bokført denne siden på feil konto! Men fortvil ikke, vi hjelper deg med å balansere bøkene igjen. Bruk menyen for å finne veien tilbake:"
+  "notFound": "Ser ut som at noen har bokført denne siden på feil konto! Men fortvil ikke, vi hjelper deg med å balansere bøkene igjen. Bruk menyen for å finne veien tilbake:",
+  "chatErrorMessage": "Det skjedde en feil. Mest sannsynlig er dette en feil på serversiden. Du kan få hjelp ved å kontakte oss på mn@mnregnskap.no."
+
 }
 
 

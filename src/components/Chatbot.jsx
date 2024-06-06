@@ -301,7 +301,7 @@ function ChatFooter({ onSend, setShowSuggestions }) {
                 })
                 .catch((error) => {
                     console.error("Error fetching response from server:", error);
-                    onSend("Det skjedde en feil, kjører serveren?", "bot");
+                    onSend(textData.chatErrorMessage, "bot");
                     setShowSuggestions(true);
                 });
         }
