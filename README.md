@@ -1,6 +1,6 @@
 Dette repositoriet består av en nettside laget i React med Vite. For å kjøre nettsiden må du først laste ned nødvendige pakker. Dette kan gjøres med kommandoen: npm install.
 
-For at nettsiden skal fungere må du også bygge dist-mappen, som er en mer optimalisert filstruktur å kjøre nettsiden fra. Denne blir bygd med: npom build. 
+For at nettsiden skal fungere må du også bygge dist-mappen, som er en mer optimalisert filstruktur å kjøre nettsiden fra. Denne blir bygd med: npm build. 
 Kjør deretter nettsiden med npm preview.
 
 Nettside krever følgende tillegg innstallert.
