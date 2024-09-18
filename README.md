@@ -22,3 +22,5 @@ Nettside krever følgende tillegg innstallert.
 - [Font Awesome Free Solid Icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free).
 - [Font Awesome React Component](https://fontawesome.com/how-to-use/on-the-web/using-with/react).
 - [EmailJS Browser](https://www.emailjs.com/).
+
+![image](https://github.com/user-attachments/assets/d4de1252-9644-4afa-96b1-fa394bb68f6c)
