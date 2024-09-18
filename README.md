@@ -1,3 +1,11 @@
+# Komplett nettside for M & N Regnskap
+
+## Beskrivelse
+
+Dette repositoriet blir brukt for å lage en komplett Client Side Rendering Nettside. Nettsiden har en tilhørende chatbot, denne finnes i følgenden repo: https://github.com/N4h0/ChatServer
+
+## Bruk
+
 Dette repositoriet består av en nettside laget i React med Vite. For å kjøre nettsiden må du først laste ned nødvendige pakker. Dette kan gjøres med kommandoen: npm install.
 
 For at nettsiden skal fungere må du også bygge dist-mappen, som er en mer optimalisert filstruktur å kjøre nettsiden fra. Denne blir bygd med: npm build. 
