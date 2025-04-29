@@ -87,7 +87,7 @@ function Test({ language }) {
                 </div>
                 <h3 className="team-item-heading">Haseeb Talib</h3>
                 <div className="team-info">
-                  <p className="team-item-title">{data.Accountant}</p>
+                  <p className="team-item-title">{data.CharteredAccountant}</p>
                   <p className="team-info-text"> {data.haseeb_text} </p>
                 </div>
               </div>
