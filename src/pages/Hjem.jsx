@@ -205,6 +205,46 @@ function Partnere({ language }) {
             <img src="./CarWash.WebP" alt="Car Wash logo" />
           </a>
         </div>
+        <div className="bildet" aria-hidden="true">
+          <a
+            href="https://www.badmashnorway.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            tabindex="-1"
+          >
+            <img src="./Badmash.webp" alt="Badmash logo" />
+          </a>
+        </div>
+        <div className="bildet" aria-hidden="true">
+          <a
+            href="https://www.waydownsouth.no/"
+            target="_blank"
+            rel="noopener noreferrer"
+            tabindex="-1"
+          >
+            <img src="./WayDownSouth.webp" alt="Way Down South logo" />
+          </a>
+        </div>
+        <div className="bildet" aria-hidden="true">
+          <a
+            href="https://lahoridera.no/"
+            target="_blank"
+            rel="noopener noreferrer"
+            tabindex="-1"
+          >
+            <img src="./LoahirDera.webp" alt="Lahori Dera logo" />
+          </a>
+        </div>
+        <div className="bildet" aria-hidden="true">
+          <a
+            href="https://www.moenengros.no/nettside/hjem"
+            target="_blank"
+            rel="noopener noreferrer"
+            tabindex="-1"
+          >
+            <img src="./MoenEngrosLogo.webp" alt="Moen Engros logo" />
+          </a>
+        </div>
       </section>
     </div>
   );
